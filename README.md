@@ -1,16 +1,16 @@
-# weather
+# weatherApp in Flutter
 
-A new Flutter project.
+This was my first Flutter(& dart) project.
 
-## Getting Started
+It fetches and displays the weather according to your location.
+Uses openweathermap.org api key
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## To run it on simulator(on macos):
+```
+flutter pub add http
+flutter pub add geolocator
+flutter pub add geocoding
+flutter pub add lottie
+open -a simulator
+flutter run
+```
